@@ -17,3 +17,9 @@ export function renderDiff(diff) {
 }
 
 
+export function createAudio() {
+    let audio = document.createElement('audio');
+    audio.src = 'sound.mp3';
+    audio.autoplay = true;
+}
+
